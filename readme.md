@@ -1,29 +1,16 @@
 # Student-Edu
 
-**Autor:** Brandon Ospina Vargas
+## Presentación del proyecto
 
-**Programa:** Programación de Software
+**Nombre completo:** Brandon ospina vargas
 
-**Jornada:** Noche
+Este proyecto es un sistema académico en consola que permite gestionar estudiantes, profesores, materias y calificaciones. La información se organiza mediante menús interactivos y se guarda en archivos JSON para conservar los datos entre ejecuciones.
 
-**Docente:** James Mosquera Rentería
+## Instrucciones de ejecución
 
-## Descripción
-
-Student-Edu es un sistema académico de consola para gestionar estudiantes, profesores, materias y calificaciones. Permite realizar operaciones básicas de consulta, creación, actualización y eliminación, además de mostrar estadísticas e información general del sistema. El proyecto está organizado por capas para separar modelos, servicios, almacenamiento e interfaz de usuario.
-
-## Ejecución local
-
-1. Instala Python 3.13 o superior.
-2. Abre una terminal en la carpeta del proyecto.
-3. El archivo `requirements.txt` no instala paquetes externos porque el proyecto usa solo la biblioteca estándar de Python.
-4. Si deseas mantener el paso de instalación, puedes ejecutar:
-
-```bash
-pip install -r requirements.txt
-```
-
-5. Ejecuta el proyecto:
+1. Abre una terminal en la carpeta del proyecto.
+2. Como `requirements.txt` está vacío, no necesitas instalar dependencias externas.
+3. Ejecuta el proyecto principal:
 
 ```bash
 python main.py
@@ -34,10 +21,12 @@ python main.py
 ```text
 Student-Edu/
 ├── main.py
-├── readme.md
+├── README.md
 ├── requirements.txt
 ├── data/
+│   ├── grades.json
 │   ├── students.json
+│   ├── subjects.json
 │   └── teachers.json
 └── src/
 	├── __init__.py
