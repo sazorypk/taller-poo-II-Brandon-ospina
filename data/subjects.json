@@ -1,0 +1,10 @@
+[
+  {
+    "id": 1,
+    "name": "programacion orientada a objetos",
+    "teacher_id": 1,
+    "credits": 100,
+    "description": "ganador",
+    "created_at": "2026-06-01T17:57:55.862847"
+  }
+]

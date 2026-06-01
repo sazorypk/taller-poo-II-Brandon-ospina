@@ -1,0 +1,10 @@
+[
+  {
+    "id": 1,
+    "name": "james",
+    "specialty": "programacion",
+    "email": "nose@gmail.com",
+    "salary": null,
+    "created_at": "2026-06-01T16:49:21.196120"
+  }
+]
